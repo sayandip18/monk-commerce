@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles.css';
-import { Info } from './data';
-import { Carousel, CarouselItem } from './Carousel';
+import './View.css';
+import { Info } from './utils/data';
+import { Carousel, CarouselItem } from './Carousel/Carousel';
 
 const TOTAL_CAROUSEL_COUNT = Info.length;
 
