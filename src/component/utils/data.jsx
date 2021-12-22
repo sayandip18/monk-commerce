@@ -1,4 +1,4 @@
-export const Info= [
+export const ReviewInfo = [
     {
         name: 'Viezh Robert',
         review: '“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.',
@@ -15,3 +15,38 @@ export const Info= [
         img: 'dp3.jpg'
     }
 ];
+
+const PlanInfo = [
+    {
+        type: "Free",
+		feats: [
+			"Unlimited Bandwitch",
+			"Encrypted Connection",
+			"No Traffic Logs",
+			"Works on All Devices",
+		],
+    },
+    {
+        type: "Standard",
+		feats: [
+			"Unlimited Bandwitch",
+			"Encrypted Connection",
+			"No Traffic Logs",
+			"Works on All Devices",
+			"Connect Anyware",
+		],
+		price: 9,
+    },
+    {
+        type: "Premium",
+		feats: [
+			"Unlimited Bandwitch",
+			"Encrypted Connection",
+			"No Traffic Logs",
+			"Works on All Devices",
+			"Connect Anyware",
+			"Get New Features",
+		],
+		price: 12,
+    }
+]
